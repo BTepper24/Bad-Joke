@@ -1,0 +1,44 @@
+button
+{
+  background-color: aqua;
+  color: black;
+  font-size:20px;
+  font-family:fantasy;
+  border: 10pxpx;
+  border-radius: 25px;
+  border-color:white;
+  width: 200px;
+  height: 100px;
+}
+button:hover
+{
+  background-color: #967bb6;
+  transition: 2s;
+  cursor : pointer;
+
+}
+body {
+  background-color: #98FF98;
+  padding-top:15%;
+}
+
+h2 {
+  font-family: Fantasy;
+  color: #178891;
+  font-size: 45px;
+  color: #178891;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #A6C7CA, 0 0 20px #26CE36, 0 0 30px #ffff00,
+      0 0 40px #ffff00, 0 0 50px #ffff00, 0 0 60px #ffff00, 0 0 70px #ffff00;
+    }
+to {
+ text-shadow: 0 0 20px #fff, 0 0 30px #e94e1f, 0 0 40px #ff7f4d,
+   0 0 50px #268ECE, 0 0 60px #268ECE, 0 0 70px #C6CC8E, 0 0 80px #8EB4CC;
+}
+}
